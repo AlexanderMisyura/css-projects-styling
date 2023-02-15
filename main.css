@@ -11,17 +11,66 @@ html {
 } /*16px*/
 
 :root {
+  /* colors */
+  --primary-100: #ebeee0;
+  --primary-200: #d7dec1;
+  --primary-300: #c4cda2;
+  --primary-400: #b0bd83;
+  --primary-500: #9cac64;
+  --primary-600: #7d8a50;
+  --primary-700: #5e673c;
+  --primary-800: #3e4528;
+  --primary-900: #1f2214;
+
+  --grey-50: #fafaf9;
+  --grey-100: #f5f5f4;
+  --grey-200: #e7e5e4;
+  --grey-300: #d6d3d1;
+  --grey-400: #a8a29e;
+  --grey-500: #78716c;
+  --grey-600: #57534e;
+  --grey-700: #44403c;
+  --grey-800: #292524;
+  --grey-900: #1c1917;
+
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+
+  /* fonts */
   --fontFamilyHeading: "Lato", sans-serif;
   --fontFamilyBody: "Arvo", serif;
   --fontSizeTextSmall: 0.7em;
+
+  /* other variables */
+  --bgColor: var(--grey-50);
+  --textColor: var(--grey-900);
+  --borderRadius: 0.25rem;
+  --letterSpacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1120px;
+  --fixed-width: 500px;
+
+  /* box shadow*/
+  --shadow-s: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-m: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-l: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 }
 
 body {
-  background: white;
+  background: var(--grey-50);
   font-family: var(--fontFamilyHeading);
   font-weight: 400;
   line-height: 1.75;
-  color: #000000;
+  color: var(--textColor);
 }
 
 p {
