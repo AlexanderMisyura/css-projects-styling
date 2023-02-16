@@ -16,6 +16,10 @@
     <h3>heading three</h3>
     <h4>heading four</h4>
     <h5>heading five</h5>
+    <div class="title">
+      <h2>Title</h2>
+      <div class="title-underline"></div>
+    </div>
     <p>
       Paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       Dolores sunt ut molestias esse distinctio doloremque quisquam est, illo ea
@@ -39,5 +43,50 @@
       <li>list item</li>
     </ul>
     <a href="#">Link</a>
+
+    <img class="img" src="./cat.jpeg" alt="cat" />
+    <br />
+
+    <button class="btn" type="button">regular button</button>
+    <button class="btn btn-variant" type="button">variant button</button>
+    <br />
+    <br />
+
+    <div class="alert alert-danger">Danger message</div>
+    <div class="alert alert-success">Success message</div>
+
+    <form class="form">
+      <div class="form-row">
+        <label for="name" class="form-label">Name</label>
+        <input
+          class="form-input"
+          type="text"
+          placeholder="enter your name"
+          id="name"
+        />
+      </div>
+      <div class="form-row">
+        <label class="form-label" for="number">Number</label>
+        <input class="form-input" type="number" id="number" />
+      </div>
+      <div class="form-row">
+        <label for="email" class="form-label">Email</label>
+        <input
+          class="form-input"
+          type="email"
+          placeholder="enter your email"
+          id="email"
+        />
+        <small class="form-alert">please provide value</small>
+      </div>
+      <div class="form-row">
+        <label class="form-label" for="textarea">Textarea</label>
+        <textarea class="form-textarea">Some text</textarea>
+      </div>
+      <button class="btn btn-block" type="submit">submit</button>
+    </form>
+    <br />
+
+    <div class="loading"></div>
   </body>
 </html>
